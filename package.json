@@ -1,0 +1,19 @@
+{
+  "name": "sqs-consumer",
+  "version": "1.1.1",
+  "description": "SQS Consumer to read the message from AWS SQS, process and delete",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "SQS",
+    "Consumer"
+  ],
+  "author": "Swapnil Sharma <swapnil.s@aceturtle.com>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1111.0",
+    "sqs-consumer": "^5.6.0"
+  }
+}
